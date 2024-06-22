@@ -1,30 +1,51 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">
+  <br>
+  <img src="https://cdn-icons-png.flaticon.com/512/10556/10556545.png" width="200">
+  <br>
+     <a href="https://my-state-machine.netlify.app/">My State Machine</a>
+  <br>
+</h1><h2 align="center"></h2>
+<p align="center"></p>
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
+</p>
+<h2 align="center">
+  Screenshots
+   <br>
+  <br>
+  <img src="https://i.ibb.co/0Vf6Lpz/Screenshot-2024-06-22-at-22-36-02.png" border="0" width="800"/> 
+</h2>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+- **State Management**: Manage state transitions and context within your application.
+- **Reactivity**: Utilize `useSyncExternalStore` for reactive state updates in React components.
+- **Flexibility**: Define custom states and transitions tailored to your application's needs.
+- **Demo Application**: A project management app to demonstrate the state machine in action.
 
-## Expanding the ESLint configuration
+## How To Use
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-- Configure the top-level `parserOptions` property like this:
+```bash
+# Clone this repository
+$ git clone https://github.com/Omerisra6/my-state-machine/
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+# Install dependencies
+$ npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Run the following command:
+```bash
+# Run the app
+$ npm start
+```
+---
+
+> GitHub [@omerisra6](https://github.com/Omerisra6) &nbsp;&middot;&nbsp;
+> Linkedin [@omerisraeli](https://www.linkedin.com/in/omer-israeli6/)
+
